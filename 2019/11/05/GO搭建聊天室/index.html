@@ -79,15 +79,17 @@
 
 
 
+<meta name="description" content="框架开始使用的是golang.org&#x2F;x&#x2F;net&#x2F;websocket, 使用下来发现这个框架的支持并不好. 看到这个框架的官方文档上注明了以下说明后, 果断换成了github.com&#x2F;gorilla&#x2F;websocket">
 <meta name="keywords" content="GO">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GO搭建聊天室">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;05&#x2F;GO%E6%90%AD%E5%BB%BA%E8%81%8A%E5%A4%A9%E5%AE%A4&#x2F;index.html">
 <meta property="og:site_name" content="小站">
+<meta property="og:description" content="框架开始使用的是golang.org&#x2F;x&#x2F;net&#x2F;websocket, 使用下来发现这个框架的支持并不好. 看到这个框架的官方文档上注明了以下说明后, 果断换成了github.com&#x2F;gorilla&#x2F;websocket">
 <meta property="og:locale" content="zh-cn">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;go_chatroom&#x2F;2.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;go_chatroom&#x2F;1.png">
-<meta property="og:updated_time" content="2019-11-05T03:41:07.678Z">
+<meta property="og:updated_time" content="2019-11-05T03:41:26.177Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;images&#x2F;go_chatroom&#x2F;2.png">
 
@@ -312,9 +314,9 @@
 
       
         <hr>
+<h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p>开始使用的是<code>golang.org/x/net/websocket</code>, 使用下来发现这个框架的支持并不好. 看到这个框架的官方文档上注明了以下说明后, 果断换成了<code>github.com/gorilla/websocket</code><br><img src="/images/go_chatroom/2.png" alt=""></p>
 <a id="more"></a>
 
-<h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p>开始使用的是<code>golang.org/x/net/websocket</code>, 使用下来发现这个框架的支持并不好. 看到这个框架的官方文档上注明了以下说明后, 果断换成了<code>github.com/gorilla/websocket</code><br><img src="/images/go_chatroom/2.png" alt=""></p>
 <h3 id="使用ProtoBuf"><a href="#使用ProtoBuf" class="headerlink" title="使用ProtoBuf"></a>使用ProtoBuf</h3><p>压测的时候发现<br><code>protocol buffers</code> 是一种语言无关、平台无关、可扩展的序列化结构数据的方法，它可用于（数据）通信协议、数据存储等。</p>
 <p><code>Protocol Buffers</code> 是一种灵活，高效，自动化机制的结构数据序列化方法－可类比 <code>XML</code>，但是比 <code>XML</code> 更小（<code>3</code> ~ <code>10</code>倍）、更快（<code>20</code> ~ <code>100</code>倍）、更为简单。</p>
 <h3 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h3><p>项目<code>github地址</code>: <code>https://github.com/zsm2018/go_chatroom</code></p>
